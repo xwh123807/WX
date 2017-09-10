@@ -15,6 +15,11 @@ Page({
       url: '../logs/logs'
     })
   },
+  bindFapiaoView: function() {
+    wx.navigateTo({
+      url: '../fapiao/list'
+    })
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({

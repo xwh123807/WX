@@ -1,0 +1,8 @@
+<!--list.wxml-->
+<view class="section">
+  <text>点击右上角“转发”，可将发票抬头信息分享给同事</text>
+  <view>
+    <text style="align:right">a</text><text>value</text>
+  </view>
+  <button type="primary" bindtap="bindViewHome">回到首页</button>
+</view>
