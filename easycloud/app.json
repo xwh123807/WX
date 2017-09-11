@@ -9,5 +9,21 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
-  }
+  },
+  "tabBar":{
+    "list":[{
+      "pagePath":"pages/index/index",
+      "text":"home"
+    },{
+      "pagePath":"pages/logs/logs",
+      "text":"logs"
+    },{
+      "pagePath":"pages/fapiao/list",
+      "text":"fapiao"
+    }],
+    "color": "red",
+    "selectedColor":"blue",
+    "backgroundColor":"white"
+  },
+  "debug":"true"
 }

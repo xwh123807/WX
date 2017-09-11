@@ -11,12 +11,12 @@ Page({
   },
   //事件处理函数
   bindViewTap: function() {
-    wx.navigateTo({
+    wx.switchTab({
       url: '../logs/logs'
     })
   },
   bindFapiaoView: function() {
-    wx.navigateTo({
+    wx.switchTab({
       url: '../fapiao/list'
     })
   },

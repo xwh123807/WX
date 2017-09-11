@@ -33,6 +33,15 @@ App({
       }
     })
   },
+  onShow: function(){
+    console.log('on show');
+  },
+  onHide: function(){
+    console.log('on hide');
+  },
+  onError: function(msg){
+    console.error('error: ' + msg);
+  },
   globalData: {
     userInfo: null
   }
